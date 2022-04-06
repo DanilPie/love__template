@@ -1,0 +1,409 @@
+body{
+	background-color: #ebdfdf;
+}
+body.stop{
+  overflow: hidden;
+}
+
+.wedding_cont{
+	position: relative;
+	/*top: 80px;*/
+	max-width: 100%;
+	max-height: 100%;
+
+}
+
+main{
+	padding-bottom: 200px;
+}
+.wedding{
+	position: relative;
+	left: 50px;
+	max-height: 100%;
+	top: -0px;
+
+}
+
+.image_1{
+   position: relative;
+	left: 60%; 
+}
+
+
+.image_1 img{
+	width: 450px ;
+	height: 450px;
+	border-radius: 50%;
+}
+
+.image_2 img{
+	width: 250px ;
+	height: 250px;
+	border-radius: 50%;
+}
+
+.image_3 img{
+width: 200px ;
+	height: 200px;
+	border-radius: 50%;
+
+}
+
+.image_5 img{
+width: 80px ;
+	height: 80px;
+	border-radius: 50%;
+
+}
+
+.image_6 img{
+width: 150px ;
+	height: 150px;
+	border-radius: 50%;
+
+}
+
+.www{
+background-color: #e5cade;
+padding-bottom: 100px;
+position: relative;
+top: -30px;
+}
+
+
+
+.image_2, .image_3, .image_1, .image_5, .image_6, .image_4{
+	display: inline-block;
+	position: relative;
+}
+
+.image_2{
+	left: -400px;
+	top: -110px;
+}
+
+.image_1{
+	left: 380px;
+	top: 130px;
+}
+
+.image_3{
+	left: -590px;
+	top: 170px;
+}
+
+.image_4{
+	left: 90px;
+	top: 20px;
+}
+
+
+.image_6{
+left: 540px;
+top: 20px;
+}
+
+.image_5{
+left: 40px;
+top: -270px;
+}
+
+.wedding_text{
+	position: relative;
+	top: 80px;
+	max-width: 100%;
+	max-height: 100%;
+
+}
+
+.wedding_text p{
+font-weight: 700;
+	font-size: 40px;
+	text-align: center;
+	color: #000;
+
+	
+}
+
+
+
+.wedding_text span{
+font-weight: 400;
+display: inline-block;
+text-align: left;
+font-size: 20px;
+color: #66545A;
+padding-left: 50px;
+}
+.map{
+	margin: 0 auto;
+	position: relative;
+	left:8%;
+	top: 40px;
+
+}
+.august_2022{
+	width: 100%;
+		margin: 0 auto;
+		position: relative;
+		z-index: 4;
+
+}
+
+.august_2022_text{
+	display: inline;
+	text-align: center;
+}
+
+.august_2022_text p{
+	font-weight: 700;
+	font-size: 40px;
+	text-align: center;
+	color: #000;
+	transition: 1s ease-in-out;}
+
+	.august_moments{
+		top: 20px;
+		bottom: 20px;
+		position: relative;
+	}
+
+.row_aug_1, .row_aug_2{
+margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+ .row_item img{
+ 	width: 300px;
+ 	height: 200px;
+ 	border-radius: 20px;
+ 	border: 4px solid #fff; 
+ }
+
+.wedding_text p{
+	transition: 0.8s ease-out;
+}
+
+.wedding_text p:hover{
+	color: #fff;
+}
+
+.house_text p{
+font-weight: 700;
+	font-size: 40px;
+	text-align: center;
+	color: #000;
+}
+
+.house iframe{
+	position: relative;
+	margin-top: 20px;
+	left: 20%
+}
+
+.family{
+	margin-top: 60px;
+	max-height: 100%;
+padding-bottom: 70px;	
+
+}
+.parents_row{
+	display: flex;
+	justify-content: space-around;
+}
+
+.parents_item  img{
+	height: 320px;
+	width: 320px;
+	 	border-radius: 20px;
+}
+
+.plus{
+position: relative;
+top: 130px;
+font-size: 55px;
+border: 4px solid transparent;
+border-bottom: 4px solid #fff; 
+border-top: 4px solid #fff; 
+border-radius: 45%;
+padding: 15px;
+padding-top: 5px;
+ transition: 0.8s ease-out;
+}
+
+.plus:hover{
+background-color:#e5cade;
+border-left: 4px solid #000; 
+border-right: 4px solid #000; 
+border-bottom: 4px solid transparent; 
+border-top: 4px solid transparent; 
+
+color: #fff;
+}
+
+
+.parents_item h3{
+	font-weight: 900;
+	font-size: 25px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding-top: 3px;
+}
+
+.parents_item span{
+	font-weight: 300;
+	font-size: 12px;
+	
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.spanc_m{
+	position: relative;
+	top: 6px;
+	left: 17px;
+	text-align: left;
+}
+
+.spanc{
+	position: relative;
+	top: 6px;
+	left: 25px;
+	text-align: left;
+}
+
+
+.family_item img{
+		height: 270px;
+	width: 270px;
+	transition: 0.8s ease-out;
+	 	border-radius: 20px;
+}
+
+.family_item img:hover{
+box-shadow: 5px 10px 15px rgba(0,0,0,0.5) ;
+}
+.children_row{
+	top: 50px;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.equals {
+	position: relative;
+	top: 20px;
+	display: inline;
+	text-align: center;
+	
+}
+
+.parents_item img{
+	transition: 0.8s ease-out;
+}
+
+.parents_item img:hover{
+box-shadow: 5px 10px 15px rgba(0,0,0,0.5) ;
+}
+
+.parents_item h3{
+	transition: 0.8s ease-out;
+
+
+}
+
+.parents_item h3:hover{
+	color: #fff;
+}
+
+.family_item h3{
+	transition: 1s ease-out;
+padding-left: 3px;
+padding-right: 3px;
+
+
+}
+
+.family_item h3:hover{
+
+	color: #fff;
+}
+
+.family_item h3:hover:after{
+	color: black;
+		transition: 2s ease-out;
+content: "'";
+border-bottom: 2px solid #fff;
+}
+
+.family_item h3:hover:before{
+	color: black;
+		transition: 2s ease-out;
+content: "'";
+border-bottom: 2px solid #fff;
+
+}
+.equals p{
+padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 50px;
+border-radius: 45%;
+transition: 0.8s ease-out;
+}
+.fa-level-down-alt{
+font-size: 35px;	
+}
+.fa-level-down-alt:first-child{
+	transform: scale(-1,1);
+}
+
+.equals p:hover {
+color: white;
+}
+
+.family_item h3{
+	font-weight: 900;
+	font-size: 25px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	
+}
+
+.family_item span{
+	font-weight: 300;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.span_richard{
+	padding-top: 10px;
+padding-left: 5px;
+}
+
+.span_emilly{
+	padding-left: 15px;
+	padding-top: 10px;
+}
+
+.span_mark{
+		padding-left: 15px;
+	padding-top: 10px;
+}
+
+.family{
+	margin-bottom: 70px;
+}
+
+.letter_of_love h3{
+	transition: 1.5s ease-in-out;
+	}
+
+	.letter_of_love h3:hover{
+
+	}
